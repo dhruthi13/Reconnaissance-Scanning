@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Nmap scans folder
+TASK1-Reconnaissance-Scanning/scans/*.xml
+TASK1-Reconnaissance-Scanning/scans/*.pcap
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# avoid committing screenshots with PII
+TASK1-Reconnaissance-Scanning/screenshots/*
