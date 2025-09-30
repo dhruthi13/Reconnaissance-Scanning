@@ -26,3 +26,21 @@ This repository contains lab instructions, scripts, and report templates for Tas
 - Only run scans against systems you own or have explicit permission to test.
 - Use host-only or isolated internal networks for vulnerable VMs.
 - Do not commit raw PCAPs or PII to the repository.
+
+
+
+# Task 1 — Reconnaissance & Scanning
+
+This folder contains all files needed to complete Task 1: Reconnaissance & Scanning for the Cybersecurity Hands-On Program.
+
+## What to do
+1. Set up your isolated lab (Kali attacker VM + one or more target VMs on host-only network).
+2. Follow `lab_instructions.md` step-by-step to run Netdiscover and Nmap scans.
+3. Use `nmap_scan.sh` to produce consistent outputs.
+4. Convert the `-oX` XML output using `nmap_to_markdown.py` into a readable summary.
+5. Fill `lab_report_template.md` with evidence, sanitized outputs, and screenshots.
+
+## Deliverables (what to commit)
+- `lab_report.md` (completed from `lab_report_template.md`) — contains commands, findings, and remediation.
+- `scans/` — only sanitized outputs (for example a trimmed Nmap text file or Markdown summary). Avoid raw PCAPs or full VM images.
+
